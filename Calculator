@@ -1,0 +1,16 @@
+A=int(input("Enter number A:"))
+B=int(input("Enter number B:"))
+choice=int(input("Enter your choice :"))
+choice==("1.Add", "2.Sub","3.Multi", "4.Div","5.Modulo")
+if(choice==1):
+    print("Addition is:",A+B)
+elif(choice==2):
+    print("Substraction is:",A-B)
+elif(choice==3):
+    print("Multiplication is:",A*B)
+elif(choice==4):
+    print("Division is :",A/B)
+elif(choice==5):
+    print("Modulus is:",A%B)
+else:
+    print("Invalid")
