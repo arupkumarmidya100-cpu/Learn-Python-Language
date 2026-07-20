@@ -1,0 +1,18 @@
+Bengali=int(input("Enter marks of Bengali:")) #out of 100
+English=int(input("Enter marks of English:")) #out of 100
+Math=int (input("Enter marks of math:")) #out of 100
+Physics=int(input("Enter marks of physics:")) #out of 100
+Avg=(Bengali+English+Math+Physics)/4
+print("Your Average Marks is:",Avg)
+if(Avg>=90 and Avg<=100):
+    print("You are in O grade")
+elif(Avg>=80):
+    print("You are in A grade")
+elif(Avg>=70):
+    print("You are in B grade")
+elif(Avg>=60):
+    print("You are in C Grade")
+elif(Avg<60 and Avg>=0):
+    print("You are fail")
+else:
+    print("Invalid grade!")
