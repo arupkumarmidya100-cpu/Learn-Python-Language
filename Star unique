@@ -1,0 +1,12 @@
+n= int (input("Enter value of n :"))
+r=1
+while r<=n:
+    c=1
+    while(c<=n):
+        if(c==1 or c==n or r==1 or r==n):
+            print(" * ", end='')
+        else:
+            print("   ",end='')
+        c+=1
+    print()
+    r+=1
