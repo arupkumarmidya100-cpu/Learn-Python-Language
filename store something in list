@@ -1,0 +1,5 @@
+a=input("Enter your first favorite movie name:")
+b=input("Enter your second favorite movie name:")
+c=input("Enter your third favorite movie name:")
+list=[a,b,c]
+print("your 3 favorite movies is:",list)
