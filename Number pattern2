@@ -1,0 +1,11 @@
+n=int(input("Enter value of n:"))
+i=0
+while i<n:
+    space=1
+    while space <=2*i+1:
+        print(i+1,end='')
+        space+=1
+    print()
+    i+=1
+
+
