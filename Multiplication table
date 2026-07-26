@@ -1,0 +1,5 @@
+n=int(input("Enter the number you want for multiplication table:"))
+Start=int(input("Enter starting multiplier:"))
+End=int(input("Enter the last multiplier:"))
+for i in range(Start,End+1):
+    print(n,"*",i,"=",n*i)
