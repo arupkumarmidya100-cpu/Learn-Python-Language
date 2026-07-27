@@ -1,0 +1,7 @@
+print("Enter you name :")
+a= input()
+b = a[::-1]
+if b==a:
+    print("palindrom")
+else:
+    print("not palindrom")
