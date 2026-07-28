@@ -1,0 +1,14 @@
+a=int(input("Enter number 1 :"))
+b=int(input("Enter number 2 :"))
+c=a*b
+while a!=b:
+    if a>b:
+        a=a-b
+    else:
+        b=b-a
+    # a,b =b,a%b
+print("GCD is:",a)
+lcm=c/a
+print("LCM is:",lcm)
+
+
