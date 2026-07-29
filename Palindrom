@@ -1,4 +1,4 @@
-print("Enter you name :")
+print("Enter your name :")
 a= input()
 b = a[::-1]
 if b==a:

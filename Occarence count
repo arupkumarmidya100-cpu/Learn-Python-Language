@@ -1,0 +1,11 @@
+s=input('Enter string:')
+checked=''
+for ch in s:
+    if ch not in checked:
+        # count=0
+        # for c in s:
+        #     if ch==c:
+        #         count+=1
+        count=s.count(ch)
+        print(f'count of {ch} is {count}')
+        checked=checked+ch

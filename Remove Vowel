@@ -1,0 +1,8 @@
+s=input("Enter the string:")
+result =''
+v='aeiouAEIOU'
+for ch in s:
+    if ch not in v:
+        result+=ch
+print ("String after removing the item:",result)
+
