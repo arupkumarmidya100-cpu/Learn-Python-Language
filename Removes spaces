@@ -1,0 +1,12 @@
+s = input("Enter a string: ")
+result = ""
+space = False
+for ch in s:
+    if ch != ' ':
+        result += ch
+        space = False
+    elif not space:
+        result += ' '
+        space = True
+print("String after removing extra spaces:")
+print(result.strip())
