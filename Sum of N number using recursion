@@ -1,0 +1,7 @@
+Num=int(input("Enter the number:"))
+def sum_num(Num):
+    if(Num==0):
+        return 0
+    else:
+        return Num+(sum_num(Num-1))
+print(sum_num(Num))
