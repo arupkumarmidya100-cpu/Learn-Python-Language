@@ -1,0 +1,7 @@
+Num=int(input("Enter the number:"))
+def fact(Num):
+    if(Num==1 or Num==0):
+        return 1
+    else:
+       return fact(Num-1)*Num
+print(fact(Num))
