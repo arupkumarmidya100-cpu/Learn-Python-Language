@@ -1,5 +1,4 @@
-print("Enter your name :")
-a= input()
+a=(input("Enter your name :"))
 b = a[::-1]
 if b==a:
     print("palindrom")

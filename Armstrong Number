@@ -1,0 +1,9 @@
+num =(input("Enter number:"))
+l=len(num)
+sum=0
+for d in num:
+    sum+=(int(d)**l)
+if(sum==int(num)):
+    print("armstrong")
+else:
+    print("not armstrong")
