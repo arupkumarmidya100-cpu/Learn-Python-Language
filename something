@@ -1,0 +1,22 @@
+#Create a file"practice"using python using some data
+with open("practice","w") as f:
+    f.write("Hii everyone\ni am Arup/nstudent of BWU\nstudied inB.tech in CSE-AIML")
+#replace AIML with DS
+with open("practice","r") as f:
+    data=f.read() 
+newdata=data.replace("AIML","DS")
+print(newdata)
+with open("practice","w") as f:
+    f.write(newdata)
+#Search something from data
+a=input("Enter the word you want to find:")
+with open("practice","r") as f:
+    newdata=f.read()
+    if(newdata.find(a)!= -1):
+        print("found")
+    else:
+        print("not found")
+
+
+    
+
