@@ -1,0 +1,14 @@
+#Find some line and print the line no.
+def check_line_no():
+   a=input("Enter the word you want to find:")
+   with open("practice","r") as f:
+        newdata=True
+        line_no=1
+        while newdata:
+            newdata=f.readline()
+            if(a in newdata):
+                 print("The line no is:",line_no)
+                 return
+            line_no+=1
+        return-1
+print(check_line_no())
