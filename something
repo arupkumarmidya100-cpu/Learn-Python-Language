@@ -17,20 +17,3 @@ with open("practice","r") as f:
     else:
         print("not found")
 
-#Find some line and print the line no.
-
-a=input("Enter the word you want to find:")
-with open("practice","r") as f:
-    newdata=True
-    line_no=1
-    while newdata:
-        newdata=f.readline()
-        if(a in newdata):
-            print("The line no is:",line_no)   
-        else:
-            line_no+=1
-        
-print("Invalid word")
-
-    
-
