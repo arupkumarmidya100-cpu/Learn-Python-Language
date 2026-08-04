@@ -1,0 +1,15 @@
+#Basic
+
+S=input("Enter your Email:")
+if S.endswith('@gmail.com'):
+    print("valid")
+else:
+    print("invalid")
+
+#Advanced
+
+Email=input("Enter your Email:")
+if('@'in Email and '.'in Email and 'Email.index(@)<Email.index(.)'):
+    print("valid")
+else:
+    print("Invalid")
