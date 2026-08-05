@@ -1,0 +1,8 @@
+s=input("Enter a string:")
+word=s.split()
+max=0
+checked= ' '
+for w in word:
+    if w not in checked :
+        print(w,end=' ')
+        checked=checked+' '+w
