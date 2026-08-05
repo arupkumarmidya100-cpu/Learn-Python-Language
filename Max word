@@ -1,0 +1,9 @@
+s=input("Enter a string:")
+word=s.split()
+max=0
+large= ""
+for w in word:
+    if len(w)>max:
+     max=len(w)
+     large=w
+print(large)
