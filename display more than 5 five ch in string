@@ -1,0 +1,5 @@
+s=input("Enter string:")
+w=s.split()
+for word in w :
+    if (len(word)>=5):
+     print("5 or more than 5 words are :",word)
