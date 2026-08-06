@@ -1,0 +1,3 @@
+s=input("Enter string:")
+# sort=(sorted(s))
+# print("After sorting:",sort)

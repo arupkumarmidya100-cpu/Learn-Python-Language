@@ -1,0 +1,25 @@
+s=input("Enter string:")
+ch=list(s)
+for i in range(0,len(ch)-1,1):
+    for j in range(i+1,len(ch)):
+        if ch[i]>ch[j]:
+            temp=ch[i]
+            ch[i]=ch[j]
+            ch[j]=temp
+result="" 
+for i in ch:
+    result+=i
+print("sorted string is :",result)
+
+#Alternative
+    
+s=input("Enter string:")
+sort=(sorted(s))
+print("After sorting:",sort)
+
+#Alternative
+
+s=input("Enter string:")
+ch=list(s)
+list.sort(ch)
+print(ch)
