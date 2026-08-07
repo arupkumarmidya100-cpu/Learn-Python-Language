@@ -1,0 +1,14 @@
+num = int(input("Enter the number :"))
+Prime_list = []
+Not_prime_list = []
+
+for i in range(2, num + 1):
+    for j in range(2, i):
+        if i % j == 0:
+            Not_prime_list.append(i)
+            break
+    else:
+        Prime_list.append(i)
+
+print("Prime number list is :",Prime_list)
+print("Not prime number list is :",Not_prime_list)
