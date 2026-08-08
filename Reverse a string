@@ -1,0 +1,6 @@
+s=input("Enter a  string:")
+rev=""
+for i in range(len(s)-1,-1,-1):
+    reverse=rev+s[i]
+    print(reverse)
+
