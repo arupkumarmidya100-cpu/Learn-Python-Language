@@ -1,0 +1,15 @@
+P=input("Enter the password:")
+upper=lower=digit=special=0
+for ch in P:
+    if ch.isupper():
+        upper=1
+    elif ch.islower():
+        lower=1
+    elif ch.isdigit():
+        digit=1
+    else:
+        special=1
+if upper and lower and digit and special and len(P)>=8 and len(P)<=12:
+    print("Valid password")
+else:
+    print("Not valid password")
