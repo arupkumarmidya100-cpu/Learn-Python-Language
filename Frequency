@@ -1,0 +1,14 @@
+def frequency(s):
+    d = {}
+
+    for ch in s:
+        if ch in d:
+            d[ch] += 1
+        else:
+            d[ch] = 1
+
+    return d
+
+text = input("Enter string: ")
+
+print(frequency(text))
