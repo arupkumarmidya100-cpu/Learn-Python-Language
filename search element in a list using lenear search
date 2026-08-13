@@ -1,0 +1,21 @@
+L = []
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    num = int(input("Enter element: "))
+    L.append(num)
+
+print("The list is:", L)
+
+search = int(input("Enter element to search: "))
+
+found = False
+
+for i in range(len(L)):
+    if L[i] == search:
+        print("Element found at index:", i)
+        found = True
+        break
+
+if found == False:
+    print("Element not found")
