@@ -1,0 +1,17 @@
+L = []
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    num = int(input("Enter element: "))
+    L.append(num)
+
+print("Original list:", L)
+
+# Bubble Sort
+for i in range(n - 1):
+    for j in range(n - 1 - i):
+        if L[j] > L[j + 1]:
+            # Swap
+            L[j], L[j + 1] = L[j + 1], L[j]
+
+print("Ascending order:", L)

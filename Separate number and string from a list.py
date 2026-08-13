@@ -3,7 +3,7 @@ n=int(input("Enter number of element:"))
 for i in range (n):
     num=input("Enter element:")
     L=L+[num]
-print(L)
+print("The original list is :",L)
 str_list=[]
 num_list=[]
 for j in L:
