@@ -1,0 +1,17 @@
+L = [10, 20, 30, 40, 50]
+
+search = int(input("Enter element to search: "))
+replace = int(input("Enter new element: "))
+
+found = False
+
+for i in range(len(L)):
+    if L[i] == search:
+        L[i] = replace
+        found = True
+        break
+
+if found:
+    print("Updated list:", L)
+else:
+    print("Element not found")
