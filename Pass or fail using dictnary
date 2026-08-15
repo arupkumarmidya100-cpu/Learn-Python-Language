@@ -1,0 +1,20 @@
+marks = {}
+
+n = int(input("Enter number of students: "))
+
+for i in range(n):
+    name = input("Enter student name: ")
+    mark = int(input("Enter marks: "))
+    marks[name] = mark
+
+passed = {}
+failed = {}
+
+for name, mark in marks.items():
+    if mark >= 50:
+        passed[name] = mark
+    else:
+        failed[name] = mark
+
+print("Passed:", passed)
+print("Failed:", failed)
