@@ -1,0 +1,19 @@
+student = {}
+
+n = int(input("Enter number of students: "))
+
+for i in range(n):
+    name = input("Enter student name: ")
+    marks = int(input("Enter marks: "))
+    student[name] = marks
+
+lowest = 999
+student_name = ""
+
+for name in student:
+    if student[name] < lowest:
+        lowest = student[name]
+        student_name = name
+
+print("Lowest marks student:", student_name)
+print("Marks:", lowest)
