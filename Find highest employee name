@@ -1,0 +1,19 @@
+employee = {}
+
+n = int(input("Enter number of employees: "))
+
+for i in range(n):
+    name = input("Enter employee name: ")
+    salary = int(input("Enter salary: "))
+    employee[name] = salary
+
+highest = 0
+highest_employee = ""
+
+for name in employee:
+    if employee[name] > highest:
+        highest = employee[name]
+        highest_employee = name
+
+print("Highest salary employee:", highest_employee)
+print("Salary:", highest)
