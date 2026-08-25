@@ -1,0 +1,11 @@
+T1=(10,30,40,20,10,500,200,100)
+T2=(30,40,150,250)
+T=[]
+for i in T2:
+    if i not in T:
+        T.append(i)
+for i in T1:
+    if i not in T:
+        T.append(i)
+T=tuple(T)
+print(T)
