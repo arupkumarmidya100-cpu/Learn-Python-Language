@@ -1,0 +1,18 @@
+rows = int(input("Enter number of rows: "))
+cols = int(input("Enter number of columns: "))
+
+matrix = []
+
+for i in range(rows):
+    row = []
+    for j in range(cols):
+        value = int(input(f"Enter element [{i}][{j}]: "))
+        row.append(value)
+    matrix.append(row)
+
+print("The matrix is:")
+
+for i in range(rows):
+    for j in range(cols):
+        print(matrix[i][j], end=" ")
+    print()
