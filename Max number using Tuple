@@ -1,0 +1,16 @@
+t = ()
+
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    num = int(input("Enter element: "))
+    t = t + (num,)
+
+largest = t[0]
+
+for i in range(1, n):
+    if t[i] > largest:
+        largest = t[i]
+
+print("Tuple =", t)
+print("Largest =", largest)
