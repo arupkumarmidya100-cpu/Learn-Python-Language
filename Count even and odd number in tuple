@@ -1,0 +1,20 @@
+t = ()
+
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    num = int(input("Enter element: "))
+    t = t + (num,)
+
+even = 0
+odd = 0
+
+for i in range(n):
+    if t[i] % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+
+print("Tuple =", t)
+print("Even numbers =", even)
+print("Odd numbers =", odd)
