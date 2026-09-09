@@ -1,0 +1,28 @@
+#CREATING 1-D ARRAY:
+
+import numpy as np
+a1=np.array([1,2,3,4])
+print("The numpy array is:",a1)
+print ("The dimension of the array is:",a1.ndim)
+
+#CREATING 2-D ARRAY:
+a2=np.array([[1,2,3,4],
+             [5,6,7,8]])
+print("The numpy array is:")
+print(a2)
+print ("The dimension of the array is:",a2.ndim)
+
+#CREATING 3-D ARRAY:
+
+a3=np.array([[[1,2,3,4],[5,6,7,8],[9,8,7,6]]])
+print("The numpy array is:")
+print(a3)
+print ("The dimension of the array is:",a3.ndim)
+
+
+#CREATING MULTI-D ARRAY:
+an=np.array([1,2,3,4],ndmin=5)
+print("The numpy array is:")
+print(an)
+print ("The dimension of the array is:",an.ndim)
+
