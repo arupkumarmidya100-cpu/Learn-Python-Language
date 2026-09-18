@@ -1,0 +1,11 @@
+import numpy as np
+val= np.random.randint(1,100,40)
+print(val)
+print("Minimun value is :",np.min(val))
+print("Maximum value is :", np.max(val))
+print("Position of Min value :", np.argmin(val))
+print("Position of Max value :", np.argmax(val))
+print("Square root of all number :", np.sqrt(val))
+print("Sin value :", np.sin(val))
+print("Cos value :", np.cos(val))
+print("Cumulative sum  :", np.cumsum(val))
